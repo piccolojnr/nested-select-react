@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef, useEffect } from "react";
-import { ChevronRight, ChevronLeft, Check, ChevronDown } from "lucide-react";
+import { ChevronRight, ChevronLeft, Check, ChevronDown } from "./icons";
 import { Button } from "./Button"; // Updated import
 
 // Generic type for items that can be nested
