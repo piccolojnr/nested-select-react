@@ -113,7 +113,7 @@ export function NestedSelect<T extends NestedItem>({
     // Helper function to find an item by id recursively
     const findItem = (items: T[], id: string | number): T | null => {
       for (const item of items) {
-        if (item[idKey] === id) {
+        if (item[idKey] == id) {
           return item;
         }
         if (item[childrenKey]?.length) {
