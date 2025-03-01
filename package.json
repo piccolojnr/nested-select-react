@@ -1,6 +1,6 @@
 {
   "name": "nested-select-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A flexible, accessible nested select component for React",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
