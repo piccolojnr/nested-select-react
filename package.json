@@ -1,0 +1,55 @@
+{
+  "name": "nested-select-react",
+  "version": "1.0.0",
+  "description": "A flexible, accessible nested select component for React",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc && rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "nested-select",
+    "dropdown",
+    "hierarchical",
+    "component",
+    "ui"
+  ],
+  "author": "piccolojnr",
+  "license": "MIT",
+  "peerDependencies": {
+    "lucide-react": "^0.477.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "lucide-react": "^0.477.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.34.9",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piccolojnr/nested-select-react"
+  },
+  "bugs": {
+    "url": "https://github.com/piccolojnr/nested-select-react/issues"
+  },
+  "homepage": "https://github.com/piccolojnr/nested-select-react#readme"
+}
