@@ -23,7 +23,7 @@ export default {
       sourcemap: true,
     },
   ],
-  external: ["react", "react-dom", "lucide-react"],
+  external: ["react", "react-dom"],
   plugins: [
     resolve(),
     commonjs(),
@@ -31,6 +31,9 @@ export default {
       tsconfig: "./tsconfig.rollup.json", // Use Rollup-specific config
       declaration: false,
       declarationDir: undefined,
+      sourceMap: true,
+      inlineSources: true,
+      noEmitOnError: true,
     }),
     terser(),
   ],
